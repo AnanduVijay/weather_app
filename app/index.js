@@ -36,7 +36,6 @@ export default function HomeSCreen() {
     }).then((data) => {
       setWeather(data);
       setLoading(false);
-      console.log("data got#################################################", data);
     });
   };
   const handleSearch = (value) => {
